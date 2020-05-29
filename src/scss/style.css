@@ -72,14 +72,17 @@ nav ul ul li {
   position: relative;
 }
 
+.logo {
+  width: 100px;
+  display: block;
+  padding: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: none;
+}
+
 @media all and (max-width: 768px) {
-  #logo {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    float: none;
-  }
   nav {
     margin: 0;
   }
@@ -125,9 +128,6 @@ nav ul ul li {
   nav ul ul li {
     display: block;
     width: 100%;
-  }
-  nav ul ul ul li {
-    position: static;
   }
 }
 
