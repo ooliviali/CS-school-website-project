@@ -1,16 +1,20 @@
 .pics {
-    height: 100vh;
+    height: 64vh;    
+    z-index: 0; 
+    margin-top: -11px;
+    position: relative;
 }
 
 .slideshow {
-    list-style-type: none;
+    list-style-type: none;    
+
 }
 
 .slideshow, .slideshow:after {
     width: 100%;
     height: 100%;
-    left: 0px;
-    z-index: 0; 
+    left: px;
+
 }
 
 .slideshow li span { 
@@ -71,4 +75,10 @@ animation: imageAnimation 30s linear infinite 0s;
 
 .no-cssanimations .cb-slideshow li span {
 	opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+    .pics {
+        height: 100vh;    
+    }
 }
