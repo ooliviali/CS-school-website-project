@@ -1,144 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext");
 body {
-  background-color: black;
+  background-color: white;
 }
 
-#container {
-  margin: 0 auto;
-  max-width: 890px;
-}
-
-.toggle,
-[id^=drop] {
-  display: none;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-  background-color: #c2b669;
-}
-
-nav:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-nav ul {
-  float: right;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-}
-
-nav ul li {
-  margin: 0;
-  display: block;
-  float: left;
-  background-color: #c2b669;
-}
-
-nav a {
-  display: block;
-  padding: 14px 20px;
-  color: black;
+.navbar {
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
-  text-decoration: none;
-}
-
-nav ul li ul li:hover {
-  background: #a59844;
-}
-
-nav a:hover {
   background-color: #a59844;
+  padding-bottom: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
+          box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
 }
 
-nav ul ul {
+.main-nav {
+  list-style-type: none;
+  padding-left: 0;
   display: none;
-  position: absolute;
-  top: 60px;
 }
 
-nav ul li:hover > ul {
-  display: inherit;
+.main.nav li {
+  text-align: center;
 }
 
-nav ul ul li {
-  width: 170px;
-  float: none;
-  display: list-item;
-  position: relative;
+.nav-links {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.nav-links:hover {
+  color: black;
 }
 
 .logo {
+  display: inline-block;
   width: 100px;
-  display: block;
   padding: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  float: none;
 }
 
-@media all and (max-width: 768px) {
-  nav {
+.navbar-toggle {
+  padding-top: 60px;
+  right: 30px;
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
+.active {
+  display: block;
+}
+
+/* DESKTOP :) */
+@media screen and (min-width: 768px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 0;
+    height: 100px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
+            box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
+  }
+  .main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .main-nav li {
     margin: 0;
   }
-  .toggle + a, .menu {
+  nav-links {
+    margin-left: 40px;
+  }
+  .logo {
+    display: inline-block;
+    width: 150px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 13px;
+  }
+  .navbar-toggle {
     display: none;
-  }
-  .toggle {
-    display: block;
-    background-color: #c2b669;
-    padding: 14px 20px;
-    color: black;
-    font-size: 17px;
-    text-decoration: none;
-  }
-  .toggle:hover {
-    background-color: #a59844;
-  }
-  [id^=drop]:checked + ul {
-    display: block;
-  }
-  nav ul li {
-    display: block;
-    width: 100%;
-  }
-  nav a:hover, nav ul ul ul a {
-    background-color: #a59844;
-  }
-  nav ul li ul li .toggle, nav ul ul a, nav ul ul ul a {
-    padding: 14px 20px;
-    color: #FFF;
-    font-size: 17px;
-  }
-  nav ul li ul li .toggle, nav ul ul a {
-    background-color: #212121;
-  }
-  nav ul ul {
-    float: none;
-    position: static;
-  }
-  nav ul ul li:hover > ul, nav ul li:hover > ul {
-    display: none;
-  }
-  nav ul ul li {
-    display: block;
-    width: 100%;
-  }
-}
-
-@media all and (max-width: 330px) {
-  nav ul li {
-    display: block;
   }
 }
 
 body {
-  background: #000000;
   font-size: 62.5%;
   line-height: 32px;
   -webkit-box-sizing: border-box;

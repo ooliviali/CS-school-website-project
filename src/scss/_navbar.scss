@@ -1,149 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
-#container {
-	margin: 0 auto;
-	max-width: 890px;
+.navbar {
+	font-family: 'Poppins', sans-serif;
+	font-size: 17px;
+	background-color:#a59844;
+	padding-bottom: 10px;
+	text-align: center;	
+	box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
 }
 
-.toggle,
-[id^=drop] {
+.main-nav {
+	list-style-type: none;
+	padding-left: 0;
 	display: none;
+
 }
 
-nav { 
-	margin:0;
-	padding: 0;
-	background-color: #c2b669;
+.main.nav li {
+	text-align: center;
+
 }
 
-
-nav:after {
-	content:"";
-	display:table;
-	clear:both;
+.nav-links {
+	text-decoration: none;
+	color: white;
+	margin: 20px;
 }
 
-nav ul {
-	float: right;
-	padding:0;
-	margin:0;
-	list-style: none;
-	position: relative;
-	}
-	
-nav ul li {
-	margin: 0;
-	display:block;
-	float: left;
-	background-color: #c2b669;
-	}
-
-nav a {
-	display:block;
-	padding:14px 20px;	
-	color:black;
-	font-size:17px;
-	text-decoration:none;
+.nav-links:hover {
+	color: black;
 }
 
-
-nav ul li ul li:hover { 
-    background: #a59844; 
-}
-
-nav a:hover { 
-	background-color: #a59844; 
-}
-
-nav ul ul {
-	display: none;
-	position: absolute; 
-	top: 60px; 
-}
-
-nav ul li:hover > ul {
-	display:inherit;
-}
-	
-nav ul ul li {
-	width:170px;
-	float:none;
-	display:list-item;
-	position: relative;
-}
 .logo {
-	width: 100px;
-	display: block;
+	display: inline-block;
+	width: 100px;	
 	padding: 30px;
-	align-items: center;
-	float: none;
 }
 
-@media all and (max-width : 768px) {
-
-nav {
-	margin: 0;
+.navbar-toggle {
+	padding-top: 60px;
+	right: 30px;
+	position: absolute;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
 }
 
-.toggle + a, .menu {
-	display: none;
-}
-
-.toggle {
-	display: block;
-	background-color: #c2b669;
-	padding:14px 20px;	
-	color:black;
-	font-size:17px;
-	text-decoration:none;
-}
-
-.toggle:hover {
-	background-color: #a59844;
-}
-
-[id^=drop]:checked + ul {
+.active {
 	display: block;
 }
 
-nav ul li {
-	display: block;
-	width: 100%;
-}
 
-nav a:hover, nav ul ul ul a {
-	background-color: #a59844;
-}
-  
-nav ul li ul li .toggle, nav ul ul a, nav ul ul ul a{
-	padding:14px 20px;	
-	color:#FFF;
-	font-size:17px; 
-}
-  
-  
-nav ul li ul li .toggle, nav ul ul a {
-	background-color: #212121; 
-}
-
-nav ul ul {
-	float: none;
-	position:static;
-}
-
-nav ul ul li:hover > ul, nav ul li:hover > ul {
-	display: none;
-}
-		
-nav ul ul li {
-	display: block;
-	width: 100%;
-}
-
-
-}
- 
-@media all and (max-width : 330px) {
-	nav ul li {
-		display:block;
+/* DESKTOP :) */
+@media screen and (min-width:768px) { 
+	.navbar{
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 100px;
+		align-items: center;	
+		box-shadow: 0 5px 15px rgba(58, 58, 58, 0.33);
 	}
+
+	.main-nav {
+		display: flex;
+		margin-right: 0px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	.main-nav li {
+		margin: 0;
+	}
+
+	nav-links {
+		margin-left: 40px;
+	}
+
+	.logo {
+		display: inline-block;
+		width: 150px;
+		padding: 30px;
+		margin-top: 50px;	
+		margin-left: 13px;
+	}
+
+	.navbar-toggle {
+		display: none;
+	}
+
+
 }

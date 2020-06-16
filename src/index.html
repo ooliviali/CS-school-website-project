@@ -5,42 +5,33 @@
     <link rel="stylesheet" href="scss/style.scss"/>
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 
 <body>
-    <nav>
-        <div><img class="logo" src="./media/logo.png"></div>
+    <nav class="navbar"> 
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#"> <img class="logo"src="./media/logo.png" alt=""></a>
+        <ul class="main-nav" id= "js-menu">
+            <li>
+                <a href="#" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">About</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Classes</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Gallery</a>
+            </li>
+            <li>
+                <a href="#" class="nav-links">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+<script type="text/javascript" src="./js/nav.js"></script>
 
-        <label for="drop" class="toggle">Menu</label>
-        <input type="checkbox" id="drop" />
-            <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li>
-                    <label for="drop-1" class="toggle">About</label>
-                    <a href="#">About+</a>
-                    <input type="checkbox" id="drop-1"/>
-                    <ul>
-                        <li><a href="#">Mission statement</a></li>
-                        <li><a href="#">Photo gallery</a></li>
-                        <li><a href="#">Staff</a></li>
-                    </ul> 
-
-                </li>
-                <li>
-
-                <label for="drop-2" class="toggle">Acedemics</label>
-                <a href="#">Acedemics+</a>
-                <input type="checkbox" id="drop-2"/>
-                <ul>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Classes</a></li>
-                    <li><a href="#">AP Courses</a></li>
-                </ul>
-                </li>
-                <li><a href="#">Student Life</a></li>
-                <li><a href="#">Athletics</a></li>
-                <li><a href="#">Calender</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
 </body>
 </html>
