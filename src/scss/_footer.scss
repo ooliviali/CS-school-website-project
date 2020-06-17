@@ -1,5 +1,8 @@
 .footer {
-    text-align: center;
+    position: absolute;
+    display: flex;
+align-items: center;
+flex-direction: row;
     background-color: #a59844;
     height: 50vh;
     padding: 0%;
@@ -8,7 +11,7 @@
 .footer-sub {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .footer-icons {
@@ -16,19 +19,20 @@
     position: relative;
     display: flex;
     align-items: center;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.visit {
+.footer-headings {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .subicons {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     height: 15vh;
     width: auto;
 }
