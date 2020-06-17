@@ -1,0 +1,33 @@
+.footer {
+    text-align: center;
+    height: 50vh;
+    padding: 0%;
+}
+
+.footer-sub {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-icons {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.visit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.subicons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: auto;
+}
