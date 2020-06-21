@@ -1,38 +1,38 @@
 .footer {
     position: absolute;
     display: flex;
-align-items: center;
-flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     background-color: #a59844;
-    height: 50vh;
+    height: 45vh;
+    width: 100%;
     padding: 0%;
 }
 
-.footer-sub {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+.footer-heading {
+    font-size: 4vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .footer-icons {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: relative;
     display: flex;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-.footer-headings {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.subicons {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+.icons {
     height: 15vh;
     width: auto;
+    border-radius: 25px;
+}
+
+.visit {
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+.disclaimer {
+    text-align: center;
 }
