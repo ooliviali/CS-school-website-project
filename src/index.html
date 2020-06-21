@@ -3,10 +3,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/style.scss"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
+    
 </head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap">
 
 <body>
 <nav class="navbar"> 
@@ -34,15 +38,22 @@
     </nav>
 
 
-    <div class="pics">
-<ul class="slideshow">
-	<li><span></span></li>
-    <li><span>2</span></li>
-	<li><span></span></li>
-	<li><span></span></li>
-	<li><span></span></li>
-</ul>
+<div class="pics">
+    <ul class="slideshow">
+	    <li><span></span></li>
+        <li><span>2</span></li>
+	    <li><span></span></li>
+	    <li><span></span></li>
+	    <li><span></span></li>
+    </ul>
 </div>
+
+<div class="mission" data-aos="fade-right">
+    <h>OUR</h> <h class="shadow">MISSION</h>
+    <h2 class="shadow">STATEMENT</h2>
+    <li class="text">Vision: Staten Island Technical High School places a high priority on academics and developing exemplary character, scholarship, service, leadership, and citizenship, while cultivating innovation through the development of 21st Century Global Skills. </li>
+</div>
+
 
     <div class="connect">
     <div class="heading">
@@ -76,8 +87,11 @@
 </div>
 </div>   
     
-<script type= "module" src="js/index.js"></script>
+<script type= "module" src="./js/index.js"></script>
 <script type="text/javascript" src="./js/nav.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
