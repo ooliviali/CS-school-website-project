@@ -6,7 +6,6 @@
     background-color: #a59844;
     height: 45vh;
     width: 100%;
-    padding: 0%;
 }
 
 .footer-heading {
@@ -14,12 +13,19 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .footer-icons {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 50%;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 .icons {
