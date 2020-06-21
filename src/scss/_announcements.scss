@@ -4,8 +4,15 @@
     position: relative;
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+
+}
+.announce-heading {
+    position: relative;
+    display: flex;
     width: 50vw;
-    justify-content: space-around;
+    font-size: 2rem;
 }
 
 /* Specific Announcement Blocks */
