@@ -55,14 +55,13 @@
 
 
 /* DESKTOP :) */
-@media screen and (min-width:900px) { 
+@media screen and (min-width:1200px) { 
 	.navbar{
 		display: flex;
 		justify-content: space-between;
 		padding-bottom: 0;
 		height: 100px;
 		align-items: center;	
-		box-shadow: 0 5px 15px rgba(43, 43, 43, 0.418);
 	}
 
 	.main-nav {
