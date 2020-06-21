@@ -14,6 +14,7 @@
     width: 100%;
     justify-content: space-around;
     font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .news-heading {
@@ -34,4 +35,12 @@
     position: relative;
     display: flex;
     flex-direction: row;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
 }
