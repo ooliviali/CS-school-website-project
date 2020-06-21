@@ -1,0 +1,59 @@
+/* News */
+
+.news-blocks {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.news-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Specific News Blocks */
+
+.news-block-one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.news-block-two {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.news-block-three {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.news-block-four {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}

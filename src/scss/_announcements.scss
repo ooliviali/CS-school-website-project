@@ -1,0 +1,42 @@
+/* Announcements */
+
+.announce-blocks {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+/* Specific Announcement Blocks */
+
+.announce-block-one {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.announce-block-two {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.announce-block-three {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+    margin: 1rem;
+    padding: 1rem;
+}
