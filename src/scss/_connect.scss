@@ -22,8 +22,10 @@
     display: flex; 
     justify-content: center;
     flex-direction: row;
+    height: 85vh;
     background-color: #8b7e28;
-    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .media > div {
@@ -32,10 +34,14 @@
     
 }
 
-@media screen and (max-width:905px) {
+@media screen and (max-width:900px) {
     .media {
         flex-direction: column;
+        height: 130vh;
     }
-
+    .instagram-media {
+        height: 38.5rem;
+        width: auto;
+    }
 
 }
