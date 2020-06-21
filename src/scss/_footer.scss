@@ -24,6 +24,7 @@
 .footer-icons {
     position: relative;
     display: flex;
+    width: 50vw;
     justify-content: space-around;
 }
 
@@ -35,7 +36,13 @@
     border-color: black;
     border-style: solid;
 }
-
+.siths {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+}
 .logo {
     position: relative;
     display: flex;
@@ -57,38 +64,24 @@
     font-size: 1.5vh;
 }
 
-@media screen and (max-width:748px) {
-    .footer {
-        height: 55vh;
-    }
-    .contact {
-        flex-direction: column;
-    }
-
-    .subicons {
-        height: 10vh;
-    }
-    .logo {
-        width: 100%;
-    }
-    .footer-logo {
-        height: 10vh;
-    }
-}
-
 @media screen and (max-width:900px) {
     .footer {
-        height: 55vh;
+        height: 60vh;
     }
     .contact {
         flex-direction: column;
+    }
+    .footer-icons {
+        width: 100%;
     }
     .subicons {
         height: 13vh;
     }
-    .logo {
+    .siths{
+        flex-direction: column;
         width: 100%;
     }
+
     .footer-logo {
         height: 13vh;
     }
