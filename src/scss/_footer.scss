@@ -24,20 +24,27 @@
 .footer-icons {
     position: relative;
     display: flex;
-    width: 50%;
     justify-content: space-around;
-
 }
 
-.icons {
+.subicons {
     height: 15vh;
     width: auto;
     border-radius: 25px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
 }
 
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
 .footer-logo {
+
+    text-align: center;
     height: 15vh;
-    width: auto;
 }
 
 .visit {
@@ -48,4 +55,41 @@
 .disclaimer {
     text-align: center;
     font-size: 1.5vh;
+}
+
+@media screen and (max-width:748px) {
+    .footer {
+        height: 55vh;
+    }
+    .contact {
+        flex-direction: column;
+    }
+
+    .subicons {
+        height: 10vh;
+    }
+    .logo {
+        width: 100%;
+    }
+    .footer-logo {
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .footer {
+        height: 55vh;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .subicons {
+        height: 13vh;
+    }
+    .logo {
+        width: 100%;
+    }
+    .footer-logo {
+        height: 13vh;
+    }
 }
