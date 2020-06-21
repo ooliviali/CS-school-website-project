@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #a59844;
-    height: 45vh;
+    height: 35vh;
     width: 100%;
 }
 
@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-around;
 }
 
 .footer-icons {
@@ -32,6 +33,11 @@
     height: 15vh;
     width: auto;
     border-radius: 25px;
+}
+
+.footer-logo {
+    height: 15vh;
+    width: auto;
 }
 
 .visit {
