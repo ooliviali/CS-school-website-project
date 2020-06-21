@@ -17,3 +17,25 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.media {   
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    background-color: #8b7e28;
+    align-content: space-around;
+}
+
+.media > div {
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+@media screen and (max-width:905px) {
+    .media {
+        flex-direction: column;
+    }
+
+
+}
