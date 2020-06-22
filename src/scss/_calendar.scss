@@ -1,8 +1,11 @@
+.connect {
+    height: 30vh;
+}
 .binding {
-    width: 100vw;
+    height: 15vh;
 }
 .pages {
-    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 }
 /* .page {
@@ -13,16 +16,15 @@
     transform: rotateX(20deg);
 } */
 .first-page{
-    width: 100vw;
+    height: 200vh;
     position: absolute;
 }
 .second-page{
-    width: 100vw;
+    height: 200vh;
     position: absolute;
 }
 .flip-container{
-   width: 100vw;
-   height: 100vh; 
+    height: 200vh;
    position: relative;
 }
 /* .flip-container{

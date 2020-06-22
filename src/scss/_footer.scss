@@ -1,0 +1,88 @@
+.footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a59844;
+    height: 35vh;
+    width: 100%;
+}
+
+.footer-heading {
+    font-size: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-icons {
+    position: relative;
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+}
+
+.subicons {
+    height: 15vh;
+    width: auto;
+    border-radius: 25px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+}
+.siths {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+}
+.logo {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo {
+
+    text-align: center;
+    height: 15vh;
+}
+
+.visit {
+    text-align: center;
+    font-size: 13px;
+}
+
+.disclaimer {
+    text-align: center;
+    font-size: 1.5vh;
+}
+
+@media screen and (max-width:900px) {
+    .footer {
+        height: 60vh;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .footer-icons {
+        width: 100%;
+    }
+    .subicons {
+        height: 13vh;
+    }
+    .siths{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-logo {
+        height: 13vh;
+    }
+}
