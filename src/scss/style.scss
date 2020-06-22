@@ -3,15 +3,20 @@
 @import "./_calendar.scss";
 @import "./_connect.scss";
 @import "./_crawler.scss";
+@import "./_style.scss";
+@import "./_slideshow.scss";
+@import "./_navbar.scss";
+@import "./_mission.scss";
+@import "./_footer.scss";
+@import "./_events.scss";
+@import "./_news.scss";
+@import "./_announcements.scss";
 
-body { 
-    font-size: 62.5%;
-    box-sizing: border-box;
-    padding: 0;
+body {
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
+    font-size: 62.5%;
+    line-height: 32px;
+    box-sizing: border-box;
+    overflow: hide;
 }
-
