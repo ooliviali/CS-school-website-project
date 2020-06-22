@@ -7,9 +7,7 @@
    background: #a59844;
 }
 
-.connect {
-    height: auto;
-}
+
 .heading p {
     padding-top: 30px;
     margin-top: 0;
@@ -27,11 +25,13 @@
 }
 
 .media {   
+    position: relative;
     display: flex; 
     justify-content: center;
     flex-direction: row;
     background-color: #a59844;
-    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .media > div {
@@ -44,7 +44,10 @@
     .media {
         flex-direction: column;
     }
-
+    .fb-post fb_iframe_widget {
+        height: 7rem;
+        width: auto;
+    }
 
 }
 
