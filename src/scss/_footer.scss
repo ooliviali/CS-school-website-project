@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #a59844;
-    height: 35vh;
+    height: 37vh;
     width: 100%;
 }
 
@@ -26,6 +26,7 @@
     display: flex;
     width: 50vw;
     justify-content: space-around;
+    align-items: center;
 }
 
 .subicons {
@@ -47,6 +48,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .footer-logo {
 
@@ -60,8 +62,14 @@
 }
 
 .disclaimer {
-    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     font-size: 1.5vh;
+    color: white;
+    background-color: black;
+    width: 100%;
 }
 
 @media screen and (max-width:900px) {
