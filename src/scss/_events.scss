@@ -1,22 +1,22 @@
 .events {
-    position: absolute;
+    position: relative;
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: auto;
     justify-content: space-around;
     flex-direction: column;
     background-color: black;
 }
 
 div.announce-block-one {
-    background-color: #a59844;
+    background-color: white;
 }
 
 div.announce-block-two {
-    background-color: #a59844;
+    background-color: white;
 }
 div.announce-block-three {
-    background-color: #a59844;
+    background-color: white;
 }
 .event-heading {
     color: white;
@@ -24,11 +24,12 @@ div.announce-block-three {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .news-heading {
+    margin-top: 80px;
     color: white;
     position: relative;
     display: flex;
@@ -72,7 +73,7 @@ div.announce-block-three {
 .dot {
     height: 50px;
     width: 50px;
-    background-color: #bbb;
+    background-color: #a59844;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -88,7 +89,7 @@ div.announce-block-three {
 
 @media screen and (max-width:1278px) {
     .events {
-        height: 90vh;
+        height: auto;
     }
     .event-content {
         flex-direction: column;
@@ -111,5 +112,8 @@ div.announce-block-three {
     }
     .word {
         font-size: small;
+    }
+    h1 {
+        font-size: 30px;
     }
 }
