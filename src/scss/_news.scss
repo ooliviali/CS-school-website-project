@@ -8,6 +8,7 @@
     align-items: center;
 }
 .column {
+    font-size: 10px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -23,13 +24,14 @@
 /* Specific News Blocks */
 
 .news-block-one {
+
     position: relative;
     display: flex;
     justify-content: center;
     border-width:2px;
     border-style:solid;
     border-color:black;
-    background-color: white;
+    background-color: #a59844;
     margin: 1rem;
     padding: 1rem;
 }
@@ -40,7 +42,7 @@
     border-width:2px;
     border-style:solid;
     border-color:black;
-    background-color: white;
+    background-color: #a59844;
     margin: 1rem;
     padding: 1rem;
 }
@@ -51,7 +53,7 @@
     border-width:2px;
     border-style:solid;
     border-color:black;
-    background-color: white;
+    background-color: #a59844;
     margin: 1rem;
     padding: 1rem;
 }
@@ -62,7 +64,8 @@
     border-width:2px;
     border-style:solid;
     border-color:black;
-    background-color: white;
+    background-color: #a59844;
     margin: 1rem;
     padding: 1rem;
 }
+

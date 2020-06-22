@@ -5,10 +5,21 @@
     height: 50vh;
     justify-content: space-around;
     flex-direction: column;
+    background-color: black;
+}
+
+div.announce-block-one {
     background-color: #a59844;
 }
 
+div.announce-block-two {
+    background-color: #a59844;
+}
+div.announce-block-three {
+    background-color: #a59844;
+}
 .event-heading {
+    color: white;
     position: relative;
     display: flex;
     width: 100%;
@@ -18,6 +29,7 @@
 }
 
 .news-heading {
+    color: white;
     position: relative;
     display: flex;
     width: 50%;
@@ -25,6 +37,7 @@
 }
 
 .announce-heading {
+    color: white;
     position: relative;
     display: flex;
     width: 50%;
@@ -36,6 +49,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .link {
@@ -46,7 +60,33 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:748px) {
+.announce-blocks {
+    align-items: center;
+}
+
+.announce-block-one, .announce-block-two, .announce-block-three {
+    width: 280px;
+    
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .fa-angle-right {
+      font-size: 20px;
+      margin-left: 10px;
+  }
+
+@media screen and (max-width:1278px) {
     .events {
         height: 90vh;
     }
@@ -61,5 +101,15 @@
     }
     .announce-blocks {
         align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .dot {
+        margin-right: 10px;
+    }
+    .word {
+        font-size: small;
     }
 }
