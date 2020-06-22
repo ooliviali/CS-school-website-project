@@ -1,0 +1,115 @@
+.events {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: black;
+}
+
+div.announce-block-one {
+    background-color: #a59844;
+}
+
+div.announce-block-two {
+    background-color: #a59844;
+}
+div.announce-block-three {
+    background-color: #a59844;
+}
+.event-heading {
+    color: white;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.news-heading {
+    color: white;
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.announce-heading {
+    color: white;
+    position: relative;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.event-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.announce-blocks {
+    align-items: center;
+}
+
+.announce-block-one, .announce-block-two, .announce-block-three {
+    width: 280px;
+    
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .fa-angle-right {
+      font-size: 20px;
+      margin-left: 10px;
+  }
+
+@media screen and (max-width:1278px) {
+    .events {
+        height: 90vh;
+    }
+    .event-content {
+        flex-direction: column;
+    }
+    .news-heading  {
+        font-size: 0.8rem;
+    }
+    .announce-heading  {
+        font-size: 0.8rem;
+    }
+    .announce-blocks {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .dot {
+        margin-right: 10px;
+    }
+    .word {
+        font-size: small;
+    }
+}
