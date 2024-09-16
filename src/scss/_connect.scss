@@ -1,0 +1,55 @@
+.heading {
+   position: relative;
+   text-align: center;
+   font-family: 'Satisfy', cursive;
+   height: 10vh;
+   font-size: 1.7rem;    
+   background: #a59844;
+}
+
+.connect {
+    height: auto;
+}
+.heading p {
+    padding-top: 30px;
+    margin-top: 0;
+}
+.icon{
+    height: 6rem;
+    
+}
+.icons{
+    height: 18vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media {   
+    display: flex; 
+    justify-content: center;
+    flex-direction: row;
+    background-color: #a59844;
+    align-content: space-around;
+}
+
+.media > div {
+    margin: 30px;
+    padding: 30px;
+    
+}
+
+@media screen and (max-width:905px) {
+    .media {
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width:1200px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+}

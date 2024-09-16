@@ -1,0 +1,39 @@
+.connect {
+    height: 30vh;
+}
+.binding {
+    height: 15vh;
+}
+.pages {
+    height: 100vh;
+    overflow: hidden;
+}
+/* .page {
+    transform-origin: top center;
+    transition: 1.5s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: rotateX(20deg);
+} */
+.first-page{
+    height: 200vh;
+    position: relative;
+}
+.second-page{
+    height: 200vh;
+    position: relative;
+}
+.flip-container{
+    height: 200vh;
+   position: relative;
+}
+/* .flip-container{
+    animation-name: page-flip;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes{
+
+} */
